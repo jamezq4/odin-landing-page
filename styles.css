@@ -22,6 +22,8 @@ ul {
 .content-1 {
     display: flex;
     flex: 1;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .info {
@@ -40,4 +42,10 @@ ul {
 
 .signup {
     align-self: flex-start;
+}
+
+.placeholder {
+    width: 200px;
+    padding: 30px;
+    background-color: aqua;
 }
