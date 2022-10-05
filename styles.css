@@ -3,6 +3,12 @@ body {
     flex-direction: column;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -13,11 +19,25 @@ body {
     font-size: 24px;
 }
 
-
-
-
-ul {
-    list-style-type: none;
+.content-1 {
     display: flex;
-    gap: 10px;
+    flex: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.text {
+    width: 350px;
+} 
+
+.title {
+    font-size: 32px;
+}
+
+.signup {
+    align-self: flex-start;
 }
