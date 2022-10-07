@@ -118,4 +118,30 @@ ul {
     width: 800px;
     height: 100px;
     background-color: #1E90FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont-title {
+    margin-left: 100px;
+    color: white;
+    font-size: 18px;
+}
+
+.final-container {
+    display: flex;
+}
+
+.final-text {
+    color: white;
+    margin-left: 100px;
+}
+
+.final-signup {
+    margin-left: 150px;
+    background-color: #1E90FF;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid white;
 }
