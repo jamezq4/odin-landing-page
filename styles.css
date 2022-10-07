@@ -65,6 +65,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .box-text {
@@ -87,4 +88,21 @@ ul {
 
 .img-text {
     width: 150px;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 24px;
+    width: 550px;
+}
+
+.signature {
+    margin-left: 300px;
 }
