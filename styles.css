@@ -112,6 +112,9 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    flex: 1;
 }
 
 .wide-container {
@@ -144,4 +147,10 @@ ul {
     color: white;
     padding: 5px 15px;
     border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
