@@ -134,7 +134,9 @@ ul {
 }
 
 .quote {
+    font-style: italic;
     font-size: 36px;
+    color: #1F2937;
     width: 745px;
 }
 
