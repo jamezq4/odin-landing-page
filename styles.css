@@ -30,12 +30,18 @@ ul {
     color: #F9FAF8;
 }
 
+.whole-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
 .content-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    flex: 1;
     background-color: #1F2937;
     padding-bottom: 120px;
 }
@@ -87,7 +93,6 @@ ul {
     align-items: center;
     gap: 50px;
     margin-bottom: 50px;
-    flex: 1;
     padding: 40px;
 }
 
@@ -129,7 +134,6 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 120px;
-    flex: 1;
     background-color: #E5E7EB;
 }
 
@@ -152,7 +156,6 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 80px 50px;
-    flex: 1;
 }
 
 .wide-container {
