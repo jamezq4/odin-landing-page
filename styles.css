@@ -28,21 +28,28 @@ ul {
 .content-1,
 .placeholder,
 .content-4,
+.content-3,
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.whole-content,
+.info,
+.content-2,
+.img-container,
+.content-3,
+.final-container {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
 .header {
-   /* display: flex;
-    justify-content: center;
-    align-items: center; */
     background-color: #1F2937;
-    /*color: #F9FAF8;*/
     padding-top: 10px;
     padding-bottom: 40px;
 }
@@ -51,28 +58,20 @@ ul {
     margin-top: 10px;
     margin-right: 400px;
     font-size: 24px;
-    /*color: #F9FAF8;*/
 }
 
 .whole-content {
-    display: flex;
-    flex-direction: column;
     flex: 1;
 }
 
 
 .content-1 {
-    /*display: flex;
-    justify-content: center;
-    align-items: center; */
     padding: 50px;
     padding-bottom: 120px;
     background-color: #1F2937;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
     width: 300px;
     gap: 10px;
     margin-right: 190px;
@@ -87,14 +86,12 @@ ul {
 .title {
     font-size: 48px;
     font-weight: 800;
-    /*color: #F9FAF8;*/
 }
 
 .signup {
     align-self: flex-start;
     padding: 8px 24px;
     background-color: #3882F6;
-    /*color: #F9FAF8;*/
     font-size: 16px;
 }
 
@@ -103,17 +100,12 @@ ul {
     height: 180px;
     padding: 30px;
     background-color: #71797E;
-    /*display: flex;
-    justify-content: center;
-    align-items: center; */
     font-size: 18px;
     color: #E5E7EB;
 }
 
 
 .content-2 {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 50px;
     margin-bottom: 50px;
@@ -132,8 +124,6 @@ ul {
 }
 
 .img-container {
-    display: flex;
-    flex-direction: column;
     gap: 10px;
 }
 
@@ -152,10 +142,6 @@ ul {
 }
 
 .content-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 120px;
     background-color: #E5E7EB;
 }
@@ -175,9 +161,6 @@ ul {
 }
 
 .content-4 {
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     padding: 80px 50px;
 }
 
@@ -192,14 +175,11 @@ ul {
 }
 
 .call-title {
-    /*color: #F9FAF8;*/
     font-size: 20px;
     font-weight: 700;
 }
 
 .final-container {
-    display: flex;
-    flex-direction: column;
     width: 410px;
 }
 
@@ -214,17 +194,12 @@ ul {
     background-color: #1E90FF;
     font-size: 16px;
     font-weight: 700;
-    /*color: #F9FAF8;*/
     padding: 5px 15px;
     border: 2px solid white;
 }
 
 .footer {
-    /*display: flex;
-    justify-content: center;
-    align-items: center; */
     background-color: #1F2937;
     padding: 40px;
     font-size: 18px;
-    /*color: #F9FAF8;*/
 }
