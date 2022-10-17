@@ -83,7 +83,7 @@ ul {
 }
 
 .text {
-    width: 410px;
+    width: 450px;
     font-size: 18px;
     color: #E5E7EB;
 } 
@@ -97,6 +97,8 @@ ul {
     align-self: flex-start;
     padding: 8px 24px;
     background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -137,6 +139,7 @@ ul {
     width: 200px;
     height: 200px;
     border: 5px solid #1E90FF;
+    border-radius: 25px;
 }
 
 .img-text {
@@ -187,7 +190,7 @@ ul {
 }
 
 .final-container {
-    width: 410px;
+    width: 445px;
 }
 
 .final-text {
@@ -201,8 +204,9 @@ ul {
     background-color: #1E90FF;
     font-size: 16px;
     font-weight: 700;
-    padding: 5px 15px;
+    padding: 8px 25px;
     border: 2px solid white;
+    border-radius: 10px;
 }
 
 .footer {
