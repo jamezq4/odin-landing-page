@@ -77,13 +77,13 @@ ul {
 }
 
 .info {
-    width: 300px;
-    gap: 10px;
+    width: 350px;
+    gap: 12px;
     margin-right: 190px;
 }
 
 .text {
-    width: 350px;
+    width: 410px;
     font-size: 18px;
     color: #E5E7EB;
 } 
